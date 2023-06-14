@@ -1,0 +1,17 @@
+Projemde istediğiniz her şeyi ekledim.
+Servis ve arayüz katmanı ekledim servis katmanında veri tabanı işlemlerini yaptım.
+Kullanıcı giriş yapıp session yapısı kullandım. Sadece adminin görebileceği bir kısım oluşturdum giriş yapmadan görüntülenemiyor.
+Asp.net(.net7) core mvc  Entity Framework  kullandım.
+2'li tablo ilişkisi yaptım.
+Ekleme silme güncelleme yaptım , extra olarak 2li ilişki yaptığım tablolar film ve film türlerini listelediğim tablo buna özel de
+film türlerine göre listeleme ekledim.
+Projeyi yaparken sizin dersleriniz defalarca izledim önerdiğiniz sitelerden yardım alarak yaptım.
+Dersleri kaçırdığım için çok üzgünüm daha iyi kaynak bulamazdım bu proje için.
+
+
+Projeyi kısca anlatıyorum
+
+Tüm filmlerin görüntülendiği ve direkt karşımıza çıkan bir ana sayfa var bir de kategorilere göre listeleyen bir yan sayfamız var.
+Kullanıcı yani admin için bir giriş linki koydum layoutta en üstte duruyor oradan eğer admin giriş yaptıysa direkt admin ana sayfasına yönlendiriyor eğer giriş yapmadıysa
+kullanıcı adı ve şifre sorguluyor . Kullanıcı adı ve şifreyi daha önce girdiyse bile ana sayfaya geldiğinde geri admin ana sayfasına kullanıcı adı şifre sormaksızın giriş yapabiliyor 
+burada admin film ekleyip silip güncelleyebiliyor.
